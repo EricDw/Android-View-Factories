@@ -20,8 +20,6 @@ fun Context.createBottomAppBar(
         ViewGroup.LayoutParams.MATCH_PARENT,
         dp(50)
     ).apply {
-
-        setPadding(0, dp(12), 0, 0)
         fabCradleMargin = dpf(5f)
         fabAlignmentMode = FAB_ALIGNMENT_MODE_END
         gravity = Gravity.BOTTOM
