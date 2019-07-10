@@ -3,4 +3,6 @@
     <item name="test_constraint_layout" type="id" />
     <item name="test_fab" type="id" />
     <item name="test_text_view" type="id" />
+    <item name="test_app_bar" type="id" />
+    <item name="test_coordinator_layout" type="id" />
 </resources>
