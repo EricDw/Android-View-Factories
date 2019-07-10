@@ -1,0 +1,2 @@
+rootProject.name='View Factories'
+include ':viewfactories'
