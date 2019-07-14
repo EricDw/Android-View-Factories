@@ -10,9 +10,6 @@ import androidx.constraintlayout.widget.ConstraintSet
 fun Context.createTextView(init: TextView.() -> Unit) =
     TextView(this).apply {
         id = View.generateViewId()
-        layoutParams = ConstraintLayout.LayoutParams(
-            ConstraintSet.WRAP_CONTENT,
-            ConstraintSet.WRAP_CONTENT
-        )
+        layoutParams = viewGroupWrapContentParams
         init()
     }

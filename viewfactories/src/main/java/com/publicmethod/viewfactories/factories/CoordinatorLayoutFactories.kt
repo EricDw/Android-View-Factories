@@ -2,8 +2,6 @@ package com.publicmethod.viewfactories.factories
 
 import android.content.Context
 import android.view.View
-import android.view.ViewGroup
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 
 fun Context.createCoordinatorLayout(
@@ -12,10 +10,7 @@ fun Context.createCoordinatorLayout(
 
     id = View.generateViewId()
 
-    layoutParams = CoordinatorLayout.LayoutParams(
-        ViewGroup.LayoutParams.MATCH_PARENT,
-        ViewGroup.LayoutParams.MATCH_PARENT
-    )
+    layoutParams = coordinatorMatchParentParams
 
     init()
 }

@@ -9,9 +9,6 @@ fun Context.createConstraintLayout(
     init: ConstraintLayout.() -> Unit = {}
 ) = ConstraintLayout(this).apply {
     id = View.generateViewId()
-    layoutParams = ConstraintLayout.LayoutParams(
-        ViewGroup.LayoutParams.MATCH_PARENT,
-        ViewGroup.LayoutParams.MATCH_PARENT
-    )
+    layoutParams = constraintMatchParentParams
     init()
 }
