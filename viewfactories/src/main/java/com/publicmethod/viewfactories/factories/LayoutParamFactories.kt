@@ -21,3 +21,15 @@ val viewGroupWrapContentParams: ViewGroup.LayoutParams
         ViewGroup.LayoutParams.WRAP_CONTENT,
         ViewGroup.LayoutParams.WRAP_CONTENT
     )
+
+val viewGroupMatchParentParams: ViewGroup.LayoutParams
+    get() = ViewGroup.LayoutParams(
+        ViewGroup.LayoutParams.MATCH_PARENT,
+        ViewGroup.LayoutParams.MATCH_PARENT
+    )
+
+val viewGroupMatchParentWidthParams: ViewGroup.LayoutParams
+    get() = ViewGroup.LayoutParams(
+        ViewGroup.LayoutParams.MATCH_PARENT,
+        ViewGroup.LayoutParams.WRAP_CONTENT
+    )
