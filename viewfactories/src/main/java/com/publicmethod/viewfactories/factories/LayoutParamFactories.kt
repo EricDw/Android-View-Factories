@@ -28,6 +28,18 @@ val viewGroupMatchParentParams: ViewGroup.LayoutParams
         ViewGroup.LayoutParams.MATCH_PARENT
     )
 
+val marginMatchParentParams: ViewGroup.MarginLayoutParams
+    get() = ViewGroup.MarginLayoutParams(
+        ViewGroup.MarginLayoutParams.MATCH_PARENT,
+        ViewGroup.MarginLayoutParams.MATCH_PARENT
+    )
+
+val marginMatchParentWidthParams: ViewGroup.MarginLayoutParams
+    get() = ViewGroup.MarginLayoutParams(
+        ViewGroup.MarginLayoutParams.MATCH_PARENT,
+        ViewGroup.MarginLayoutParams.WRAP_CONTENT
+    )
+
 val viewGroupMatchParentWidthParams: ViewGroup.LayoutParams
     get() = ViewGroup.LayoutParams(
         ViewGroup.LayoutParams.MATCH_PARENT,
